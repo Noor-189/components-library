@@ -9,10 +9,31 @@
 }
 
 .card-category h1 {
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /*Pourquoi ne marche pas ???*/
+  align-items: center; /*Pourquoi ne marche pas ???*/
   color: white;
   font-size: 24px;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/*Card Product*/
+.card-product {
+  display: flex;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.card-product img {
+  width: 150px;
+}
+
+.card-product h2 {
+  margin-bottom: 10;
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.card-product p {
+  margin-top: 0;
+  font-size: 15px;
+  color: #444444;
 }
