@@ -37,3 +37,24 @@
   font-size: 15px;
   color: #444444;
 }
+
+/*Card trip*/
+.card-trip {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-trip img {
+  width: 745px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.trip-description {
+  display: flex;
+  padding: 20px;
+  height: 100px;
+}
+
+#price-trip {
+  text-align: center;
+}
