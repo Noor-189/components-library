@@ -1,0 +1,53 @@
+/*write a story button*/
+#grey-btn {
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 30px;
+  opacity: 0.5;
+  padding: 12px 20px;
+}
+
+#grey-btn:hover {
+  opacity: 1;
+}
+
+/*Start now button*/
+#green-btn {
+  background-color: #6ec287;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+#green-btn:hover {
+  background-color: #3AC162;
+}
+
+/*My buttons*/
+#pink-blue-btn {
+  background-color: #FF5F60;
+  color: #003450;
+  padding: 12px 35px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+#pink-blue-btn:hover {
+  background-color: #003450;
+  color: #FF5F60;
+}
+
+#green-violet-btn {
+  background-color: #a0ee88;
+  color: #62157a;
+  padding: 12px 35px;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 1px solid #62157a;
+}
+
+#green-violet-btn:hover {
+  background-color: #62157a;
+  color: #a0ee88;
+}
